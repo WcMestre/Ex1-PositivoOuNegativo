@@ -20,15 +20,15 @@ namespace Exercício_1
                 Console.WriteLine("\nO número é positivo.");
             }
 
-            else if (Numero < 0)
-            {
-                Console.WriteLine("\nO número é negativo.");
-            }
+                else if (Numero < 0)
+                {
+                    Console.WriteLine("\nO número é negativo.");
+                }
 
-            else
-            {
-                Console.WriteLine("\nO número é zero.");
-            }
+                    else
+                    {
+                        Console.WriteLine("\nO número é zero.");
+                    }
 
             Console.Write("\nPressione qualquer tecla para continuar . . . ");
             Console.ReadKey(true);
